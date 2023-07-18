@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{grid-area: a1;}
+        #b{grid-area: b1;}
+        #c{grid-area: c1;}
+        #d{grid-area: d1;}
+        #e{grid-area: e1;}
+
+        .main{
+            background-color: brown;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            box-shadow:10px 10px 20px black;
+            margin-top: 20px;
+            display: grid;
+            grid-template-areas: 'a1 a1 b1' ' c1 d1 e1';
+            /* display:flex;         
+               flex direction:row;  it can be column,row-reverse,column-reverse */
+        }
+        .main > div{                 /*div in main*/
+            background-image: linear-gradient(120deg,rgb(207, 112, 112),rgb(216, 178, 106),rgb(223, 223, 111),rgb(138, 234, 138));
+            padding: 20px;
+            margin: 20px;
+            border-color: black;
+            border-width: 2px;
+            border-style:outset
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="a">
+           <!-- <img src="https://images.pexels.com/photos/17170319/pexels-photo-17170319/free-photo-of-landscape-field-summer-sun.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" length=10px width=300px>  rather than disturbing th div tag(which consists of certain properties) better to take sub tag when required-->
+            Home</div>
+        <div id="b">About</div>
+        <div id="c">Events</div>
+        <div id="d">Services</div>
+        <div id="e">COntact Us</div>
+    </div>
+</body>
+</html>

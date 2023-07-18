@@ -1,0 +1,10 @@
+.c{
+    color: brown;
+    background-color: darksalmon;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/17054021/pexels-photo-17054021/free-photo-of-light-landscape-beach-vacation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   /*we can add existing image in our system but it will be shown multiple times as the size of that image is small.For this we can use an attribute,background-repeat=no-repeat*/
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+         color: darkblue;
+         background-color: aqua;
+         font-size: 30px;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         text-align: center;
+         width:300px;
+        }
+        #myid{
+            color: darkgoldenrod;
+            background-color: brown;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .myclass{
+            background-color: aquamarine;
+            color: brown;
+            font-size: 25px;
+        }
+        .c{
+            padding: 20px;  
+            border-radius: 20px; /*as value increases,box changes to circle*/
+            margin: 20px;
+            border-color: black;
+            border-width: 10px;
+            border-style: double;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS -->
+    <!-- Inline -->
+    <!--Internal CSS  -->
+    <!--External CSS  -->
+
+    <!-- Inline -->
+    <div align="center">
+    <h1 style="background-color: maroon;color: white;text-align: center;font-size: 40px;">Adding Multimedia</h1>
+    <!-- iframe is usedto display a webpage within the webpage -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xk4_1vDrzzo"
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+     clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     allowfullscreen></iframe> 
+     <h3>Online vedio</h3>
+     <h3 id="myid">Welcome All</h3>  <!--not possible to have (2ids) and (1id,1class) in id attribute*/-->
+     <h3 class="myclass c">Thank you</h3>    <!--possible to have (2classes) in class attribute*/-->
+     </div>
+</body>
+</html>

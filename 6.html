@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: antiquewhite;
+            background-image: linear-gradient(120deg,red,green,blue,yellow,pink);
+            text-align: center;
+            width: 350px;
+            border-radius: 200px;
+            box-shadow: black;
+            letter-spacing: 1px;
+            line-height: 30px;
+            position: absolute;
+            left:600px;
+            top:20px;
+        }
+        
+         /*body{
+            /*background-image:url("https://images.pexels.com/photos/17054021/pexels-photo-17054021/free-photo-of-light-landscape-beach-vacation.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+        } */
+        p{
+           /* filter: blur(8px);
+            -webkit-filter: blur(8px);     OR*/  
+            opacity: 0.6; /*defines blur*/
+       }
+        .a{
+            position: absolute;
+            left:600px;
+            top:120px;
+        }
+        .c{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            border-radius: 300px;
+            position: absolute;  /*relative*/
+            text-align: center;
+            left: 650px;
+            top: 200px;
+            animation-name: box;
+            animation-duration: 3s;
+            animation-iteration-count: 4;/*can give infinite*/
+            color: white;
+        }
+        .b{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            border-radius: 300px;
+            position: absolute;  /*relative*/
+            text-align: center;
+            left: 650px;
+            top: 200px;
+            animation-name: hlo;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+            color: white;
+        }
+        .d{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(186, 190, 47);
+            border-radius: 300px;
+            position: absolute;  /*relative*/
+            text-align: center;
+            right: 400px;
+            top: 200px;
+            animation-name: fromout;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+            color: white;
+        }
+        @keyframes box {      /*box is identifier name(own)*/
+            /*from{background-color: blue;} to{background-color: aqua;}  for 2 colors*/
+            10%{background-color:blue;left:0px;top:0px;}            /* For multiple colors*/
+            20%{background-color:red;left:200px;top:0px;color: black;}           /* percent can be any,upto 100%*/
+            40%{background-color:green;left:200px;top:200px;}       /*left and top is used for motional(movable) purpose towards left and top,similarly right,bottom*/
+            70%{background-color:orchid;left:0px;top:200px;border-radius: 30px;}
+            100%{background-color:yellow;left:0px;top:0px;} 
+        }
+        @keyframes hlo {
+            10%{background-color:blue;right:0px;top:0px;}
+            20%{background-color:red;right:200px;top:0px;}
+            40%{background-color:green;right:200px;top:200px;}
+            70%{background-color:orchid;right:0px;top:200px;}
+            100%{background-color:yellow;right:0px;top:0px;}
+        }
+        @keyframes fromout {
+            /* from{transform: translateY(-100%);} to{transform: translateY(100%);} */
+            from{transform: rotate(0deg);} to{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+     <p>
+        <img src="https://images.pexels.com/photos/17054021/pexels-photo-17054021/free-photo-of-light-landscape-beach-vacation.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+     </p>   
+    <h1>Indroduction to CSS</h1>
+    <h1 class="a">Indroduction to CSS</h1>
+    <h1 class="a">Indroduction to CSS</h1>
+    <h1 class="a">Indroduction to CSS</h1>
+    <h1 class="a">Indroduction to CSS</h1>
+    <h1 class="a">Indroduction to CSS</h1>
+    <p class="c"><br><br><br>Hai</p>
+    <p class="b"><br><br><br>Hello</p>
+    <p class="d"><br><br><br>All is well</p>
+    </div>
+</body>
+</html>
