@@ -1,0 +1,23 @@
+/*wherever we need to use these attributes,we can use that variable instead*/
+#first {
+  background-image: linear-gradient(120deg, pink, red, blue);
+  box-shadow: 10px 10px 10px blue;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#second {
+  color: black;
+  text-align: center;
+}
+
+#third {
+  color: brown;
+  text-align: center;
+}/*# sourceMappingURL=10.css.map */

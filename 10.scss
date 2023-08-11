@@ -1,0 +1,25 @@
+$a:blue; /*wherever we need to use these attributes,we can use that variable instead*/
+$b:10px;
+#first
+{
+    background-image: linear-gradient(120deg,pink,red,$a);
+    box-shadow: 10px 10px 10px $a;
+    padding: $b;
+}
+h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  border-radius: $b;
+  
+}
+#second
+{
+ color: black;
+ text-align: center;
+}
+#third
+{
+ color: brown;
+ text-align: center;
+}
